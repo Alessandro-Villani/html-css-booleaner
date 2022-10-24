@@ -50,7 +50,7 @@ address{
     color: rgb(70 193 238);
 }
 
-time{
+#date{
     color: #ababab;
     font-size: 0.6rem;
 }
@@ -61,7 +61,7 @@ figure{
     display: inline-block;
 }
 
-figcaption{
+.caption{
     font-size: 0.8rem;
 }
 
