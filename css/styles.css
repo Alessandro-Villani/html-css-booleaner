@@ -6,10 +6,15 @@
 }
 
 .container{
-    background-color: blue;
-    width: 80%;
+    width: 60%;
     margin: auto;
     height: 100vh;
+}
+
+/*UTILS*/
+
+.bottom-margin{
+    margin-bottom: 20px;
 }
 
 /*HEADER*/
@@ -29,3 +34,26 @@ header{
 }
 
 /*MAIN*/
+
+address{
+    color: #ababab;
+    font-style: normal;
+}
+
+.light-blue {
+    color: rgb(70 193 238);
+}
+
+time{
+    color: #ababab;
+    font-size: 0.6rem;
+}
+
+figure{
+    margin-top: 15px;
+    display: inline-block;
+}
+
+figcaption{
+    font-size: 0.8rem;
+}
