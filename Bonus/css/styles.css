@@ -1,0 +1,119 @@
+/*GENERAL*/
+
+*{
+    border: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    height: 100%;
+    }
+
+/*UTILS*/
+
+.bottom-margin{
+    margin-bottom: 20px;
+}
+
+.highlight{
+    background-color: yellow;
+}
+
+/*HEADER*/
+
+header{
+    height: 200px;
+    background-color: rgba(78, 160, 255, 1);
+    background-image: url(../img/pattern.png);
+    position: relative;
+}
+
+#booleaner-logo{
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+/*MAIN*/
+
+/*TITLE*/
+address{
+    color: #ababab;
+    font-style: normal;
+}
+
+.light-blue {
+    color: rgb(70 193 238);
+}
+
+time{
+    color: #ababab;
+    font-size: 0.6rem;
+}
+
+/*PICTURES*/
+figure{
+    margin-top: 15px;
+    display: inline-block;
+}
+
+figcaption{
+    font-size: 0.8rem;
+}
+
+/*ARTICLE TEXT*/
+
+ul{
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+/*TABLE*/
+
+table{
+    width: 100%;
+    text-align: left;
+    border-spacing: 0;
+}
+
+thead{
+    background-color: rgb(70 193 238);
+    color: white;
+}
+#big-cell{
+    width: 50%;
+}
+
+.lightblue-bg{
+    background-color: rgb(177 229 242);
+}
+
+/*SUGGESTED SECTION*/
+
+h3{
+    color: #ababab;
+}
+
+.suggested{
+    width: 40%;
+    height: 200px;
+    color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+#monitor{
+    background-image: url(../img/monitor.jpg);
+}
+
+#graph{
+    background-image: url(../img/graph.jpg);
+}
