@@ -57,3 +57,8 @@ figure{
 figcaption{
     font-size: 0.8rem;
 }
+
+ul{
+    list-style-position: inside;
+    padding-left: 0;
+}
